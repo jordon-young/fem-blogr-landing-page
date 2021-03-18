@@ -1,0 +1,40 @@
+:root {
+  --primary-red: hsl(356, 100%, 66%);
+  --primary-light-red: hsl(355, 100%, 74%);
+  --primary-dark-blue: hsl(208, 49%, 24%);
+
+  --text-light: hsl(0, 0%, 100%);
+  --text-dark: hsl(207, 13%, 34%);
+  --text-footer: hsl(240, 2%, 79%);
+
+  --background-header-gradient-start: hsl(13, 100%, 72%);
+  --background-header-gradient-end: hsl(353, 100%, 62%);
+  --background-body-gradient-start: hsl(237, 17%, 21%);
+  --background-body-gradient-end: hsl(237, 23%, 32%);
+  --background-footer: hsl(240, 10%, 16%);
+
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+  background-color: var(--background-footer);
+  color: var(--text-footer);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Overpass', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+/* */
