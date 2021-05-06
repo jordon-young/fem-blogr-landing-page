@@ -40,30 +40,10 @@ h1 {
   font-size: 2rem;
 }
 
-h2 {
-  font-size: 1.75rem;
-  color: var(--primary-dark-blue);
-}
-
-h3 {
-  font-size: 1.75rem;
-  color: var(--primary-dark-blue);
-  margin-top: 3rem;
-}
-
 h6 {
   font-size: 1.125rem;
   font-weight: 300;
 }
-
-p {
-  color: var(--text-dark);
-  opacity: 85%;
-  margin: 1rem 0 2rem 0;
-  padding: 0 2rem;
-  line-height: 1.75rem;
-}
-
 
 .navbar {
   display: flex;
@@ -85,7 +65,7 @@ p {
 
 /* Hero */
 #hero {
-  background: linear-gradient(to right, var(--background-header-gradient-start), var(--background-header-gradient-end));
+  background: linear-gradient(var(--background-header-gradient-start), var(--background-header-gradient-end));
   color: var(--text-light);
   text-align: center;
   padding-bottom: 10rem;
@@ -141,7 +121,7 @@ p {
 /* Infrastructure */
 #infrastructure * {
   color: var(--text-light);
-}
+} 
 
 #infrastructure .card {
   height: 500px;
@@ -156,13 +136,11 @@ p {
 @media only screen and (max-width: 550px) {
   #hero div {
     width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 
-  #future h3{
+  #future div {
     width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
