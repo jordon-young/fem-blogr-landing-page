@@ -141,7 +141,7 @@ p {
 /* Infrastructure */
 #infrastructure * {
   color: var(--text-light);
-}
+} 
 
 #infrastructure .card {
   height: 500px;
