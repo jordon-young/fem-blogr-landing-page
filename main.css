@@ -40,10 +40,30 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 1.75rem;
+  color: var(--primary-dark-blue);
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: var(--primary-dark-blue);
+  margin-top: 3rem;
+}
+
 h6 {
   font-size: 1.125rem;
   font-weight: 300;
 }
+
+p {
+  color: var(--text-dark);
+  opacity: 85%;
+  margin: 1rem 0 2rem 0;
+  padding: 0 2rem;
+  line-height: 1.75rem;
+}
+
 
 .navbar {
   display: flex;
@@ -65,7 +85,7 @@ h6 {
 
 /* Hero */
 #hero {
-  background: linear-gradient(var(--background-header-gradient-start), var(--background-header-gradient-end));
+  background: linear-gradient(to right, var(--background-header-gradient-start), var(--background-header-gradient-end));
   color: var(--text-light);
   text-align: center;
   padding-bottom: 10rem;
@@ -107,10 +127,42 @@ h6 {
   color: var(--primary-light-red);
 }
 
-/* Make Hero text wrap at the same breakpoint */
-@media only screen and (max-width: 520px) {
+/* Future */
+#future {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+#future img {
+  width: 85%;
+  margin: 3rem 0 auto;
+}
+
+/* Infrastructure */
+#infrastructure * {
+  color: var(--text-light);
+}
+
+#infrastructure .card {
+  height: 500px;
+  background: linear-gradient(to right, var(--background-body-gradient-start), var(--background-body-gradient-end) 50%);
+  border-radius: 0 6rem;
+}
+
+
+
+
+/* Make Hero text and Future Headings wrap at the same breakpoint */
+@media only screen and (max-width: 550px) {
   #hero div {
     width: 300px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #future h3{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
